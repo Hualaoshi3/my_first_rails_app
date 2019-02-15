@@ -1,0 +1,77 @@
+{
+  "Version": "18.04",
+  "OEM": {
+    "Vendor": "ASUSTeK COMPUTER INC.",
+    "Product": "UX305FA"
+  },
+  "BIOS": {
+    "Vendor": "American Megatrends Inc.",
+    "Version": "UX305FA.206"
+  },
+  "CPU": {
+    "OpMode": "32-bit, 64-bit",
+    "CPUs": "4",
+    "Threads": "2",
+    "Cores": "2",
+    "Sockets": "1",
+    "Vendor": "GenuineIntel",
+    "Family": "6",
+    "Model": "61",
+    "Stepping": "4",
+    "Name": "Intel(R) Core(TM) M-5Y71 CPU @ 1.20GHz",
+    "Virtualization": "VT-x"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "8086",
+      "Model": "161e"
+    }
+  ],
+  "RAM": 8.1,
+  "Partitions": [
+    18.5,
+    0.1,
+    122.8
+  ],
+  "Screens": [
+    {
+      "Size": "293mmx165mm",
+      "Resolution": "1920x1080",
+      "Frequency": "60.00"
+    }
+  ],
+  "Autologin": true,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "en_US",
+  "Timezone": "Asia/Shanghai",
+  "Install": {
+    "Media": "Ubuntu 18.04.1 LTS \"Bionic Beaver\" - Release amd64 (20180725)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "resize_use_free",
+    "DownloadUpdates": true,
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "1": "language",
+      "7": "console_setup",
+      "17": "wireless",
+      "49": "prepare",
+      "83": "partman",
+      "93": "partman",
+      "104": "start_install",
+      "429": "timezone",
+      "442": "usersetup",
+      "474": "user_done",
+      "833": "done"
+    }
+  }
+}
